@@ -19,4 +19,6 @@ Manufacturers.hasMany(Products)
 module.exports = {
   Manufacturers,
   Products,
+  Op: Sequelize.Op,
+
 }

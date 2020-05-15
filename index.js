@@ -12,6 +12,6 @@ app.get('/products', getAllProducts)
 
 app.get('/products/:id', getProductsById)
 
-app.listen(1337, () => {
-  console.log('Listening on port 1337...') // eslint-disable-line no-console
+app.listen(1111, () => {
+  console.log('Listening on port 1111...') // eslint-disable-line no-console
 })
